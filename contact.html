@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formularz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+<form>
+    <label><em><strong>Formularz</strong></em></label>
+    <div class="form-group">
+        <label for="podaj Imie">Imie</label>
+        <input type="text" name="nazwa" value="" id="podaj Imie" placeholder="podaj Imie">
+    </div>
+
+    <div class="form-group">
+        <label for="podaj Nazwisko">Nazwisko</label>
+        <input type="text" name="nazwa" value="" id="podaj Nazwisko" placeholder="podaj Nazwisko">
+    </div>
+
+
+    <div class="form-group">
+        <label>Email address</label>
+    <input type="email"  aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted"></small>
+</div>
+    <div>
+    <label>Wiek:</label>
+    <input type="number" name="nazwa" value="Wiek">
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+
+
+    <div><input type="radio" name="nazwa" value="wartość" checked>Mężczyzna
+        <input type="radio" name="nazwa" value="wartość" checked>Kobieta
+    </div>
+
+<div>
+        Stan cywilny:
+    <select>
+        <option value="wartość1">Kawaler</option>
+        <option value="wartość2">Panna</option>
+        <option value="wartość3">Po ślubie</option>
+
+    </select>
+</div>
+        <div>
+            <textarea rows="4" cols="50">
+opis
+</textarea>
+        </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+</body>
+</html>
