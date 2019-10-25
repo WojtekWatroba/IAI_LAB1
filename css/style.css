@@ -1,4 +1,10 @@
 body{background-color:lightskyblue;}
 li {
     display: inline;
+
 }
+a{
+    background-color: lightskyblue;
+    transition: all 1s;
+}
+a:hover { background-color: gold }
