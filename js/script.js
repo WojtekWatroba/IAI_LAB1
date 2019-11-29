@@ -1,4 +1,4 @@
- nav = '<ul class="nav"><li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li><li><a class="nav-link active" href="#2">Blog</a></li><li><a class="nav-link active" href="quiz.html">Quiz</a></li><li><a class="nav-link active" href="contact.html">Kontakt</a></li></ul>';
+ nav = '<ul class="nav"><li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li><li><a class="nav-link active" href="Blog.html">Form</a></li><li><a class="nav-link active" href="quiz.html">Quiz</a></li><li><a class="nav-link active" href="contact.html">Kontakt</a></li></ul>';
 let elem = document.querySelector('.navbar');
 elem.innerHTML = nav;
 let next = document.querySelector('.next');
